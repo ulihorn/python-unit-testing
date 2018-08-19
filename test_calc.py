@@ -8,6 +8,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.add(-1, 1), 0)
         self.assertEqual(calc.add(-1, -1), -2)
         self.assertEqual(calc.add(1, 1), 2)
+        self.assertEqual(calc.add(10, 10), 20)
 
 
 if __name__ == '__main__':
